@@ -1,0 +1,5 @@
+{
+	"version": 2,
+	"builds": [{ "src": "api/ping.js", "use": "@vercel/node" }],
+	"routes": [{ "src": "/ping", "dest": "/api/ping.js" }]
+}
