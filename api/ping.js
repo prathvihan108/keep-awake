@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-	const BACKEND_URL = "https://your-backend-on-render.com/health"; // replace with your backend
+	const BACKEND_URL = "https://task-tracker-a3ol.onrender.com/health";
 
 	try {
 		const response = await fetch(BACKEND_URL);
